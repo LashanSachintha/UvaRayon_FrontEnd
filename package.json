@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+
+"scripts": {
+  "start": "concurrently \"npm run start-user\" \"npm run start-admin\"",
+  "start-user": "cd user && npm run dev",
+  "start-admin": "cd admin && npm run dev"
+}
+
+  
+}
+
+
